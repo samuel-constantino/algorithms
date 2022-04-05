@@ -14,11 +14,11 @@ const isPrime = (number) => {
 };
 
 const challenge3 = (number) => {
-  const primes = [];
+  let maxPrime = 0;
   for (let i = 2; i <= number; i += 1) {
-    if (isPrime(i) && number % i === 0) primes.push(i);
+    if (isPrime(i) && number % i === 0 && i > maxPrime) maxPrime = i;
   }
-  return primes;
+  return maxPrime;
 };
   
 module.exports = { challenge3 };
