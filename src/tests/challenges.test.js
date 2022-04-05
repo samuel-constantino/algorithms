@@ -1,4 +1,4 @@
-const { challenge1, challenge2, challenge3 } = require('../challenges');
+const { challenge1, challenge2, challenge3v1, challenge3v2 } = require('../challenges');
 
 describe('Challenge functions', function () {
   test('sum of multiples of 3 and 5', function () {
@@ -9,7 +9,11 @@ describe('Challenge functions', function () {
     expect(challenge2(10)).toBe(44);
   });
 
-  test('prime factors of 13195', function () {
-    expect(challenge3(13195)).toEqual([5, 7, 13, 29]);
+  test('prime factors of 13195 (version 1)', function () {
+    expect(challenge3v1(13195)).toEqual(29);
+  });
+
+  test('prime factors of 13195 (version 2)', function () {
+    expect(challenge3v2(13195)).toEqual(29);
   });
 });
