@@ -7,4 +7,4 @@ console.log('\n\nDESAFIO 2:');
 console.log('Soma dos termos pares da sequência Fibonacci, entre 1 e 4 M: ', challenge2(4000000));
 
 console.log('\n\nDESAFIO 3:');
-console.log('Fatores primos de 600851475143: ', challenge3(13195));
+console.log('Fatores primos de 600851475143: ', challenge3(600851475143));
