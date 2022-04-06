@@ -23,9 +23,9 @@
 
 - [Instruções](#instruções)
 - [Desafios](#desafios)
-	- [Desafio 1 - Soma dos múltiplos de 3 e 5](#desafio-1-soma-dos-múltiplos-de-3-e-5)
-	- [Desafio 2 - Soma de termos pares da sequência Fibonacci](#desafio-2-soma-de-termos-pares-da-sequência-fibonacci)
-	- [Desafio 3 - Maior fator primo](#desafio-3-maior-fator-primo)
+	- [Desafio 1 - Soma dos múltiplos de 3 e 5](#desafio-1---soma-dos-múltiplos-de-3-e-5)
+	- [Desafio 2 - Soma de termos pares da sequência Fibonacci](#desafio-2---soma-de-termos-pares-da-sequência-fibonacci)
+	- [Desafio 3 - Maior fator primo](#desafio-3---maior-fator-primo)
 - [Tecnologias](#tecnologias)
 - [Próximos Passos](#próximos-passos)
 - [Autor](#autor)
