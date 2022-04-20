@@ -5,6 +5,8 @@ def is_prime(n):
         return False
 
     limit = int(n**(1/2))
+    # Se houver alguma divisão inteira entre 3 e a raiz quadrada de 'n',
+    # então esse número não é primo.
     for i in range(3, limit + 1, 2):
         if n % i == 0:
             return False
@@ -31,3 +33,6 @@ def prime_factors(number):
 if __name__ == '__main__':
     print(prime_factors(13195))
     print(prime_factors(600851475143))
+
+# Créditos aos super instrutores da Trybe, Felps e Carlos Júnior,
+# que me ajudaram a implementar esse algorítmo.

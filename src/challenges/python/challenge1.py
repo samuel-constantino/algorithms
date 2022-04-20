@@ -11,3 +11,6 @@ def challenge1(num):
 
 
 print(challenge1(10))
+
+# Créditos ao super instrutor da Trybe, Felps,
+# que me ajudaram a implementar esse algorítmo.
