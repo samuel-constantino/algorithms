@@ -6,7 +6,7 @@ describe('Challenge functions', function () {
   });
 
   test('Sum the even numbers of the Fibonacci sequence', function () {
-    expect(challenge2(10)).toBe(44);
+    expect(challenge2(10)).toBe(10);
   });
 
   test('prime factors of 13195 (version 1)', function () {

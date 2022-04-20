@@ -15,7 +15,7 @@ const challenge2 = (number) => {
   let next = null;
   let sum = 2;
 
-  for (let i = 2; i < number; i += 1) {
+  while (current < number) {
     next = prev + current;
     prev = current;
     current = next;
