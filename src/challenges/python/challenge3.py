@@ -5,11 +5,13 @@ def is_prime(n):
         return False
 
     limit = int(n**(1/2))
+    count = 3
     # Se houver alguma divisão inteira entre 3 e a raiz quadrada de 'n',
     # então esse número não é primo.
-    for i in range(3, limit + 1, 2):
-        if n % i == 0:
+    while count <= limit:
+        if n % count == 0:
             return False
+        count += 2
 
     return True
 
@@ -21,6 +23,7 @@ def prime_factors(number):
     while curr_divider <= curr_dividend:
         # Se a divisão do dividendo atual pelo divisor atual é inteira
         # e o divisor atual é primo
+        # então o divisor atual é um fator primo.
         if curr_dividend % curr_divider == 0 and is_prime(curr_divider):
             prime_factors.append(curr_divider)
             curr_dividend = curr_dividend / curr_divider
