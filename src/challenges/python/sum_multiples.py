@@ -1,4 +1,4 @@
-def challenge1(num):
+def sum_multiples(num):
     total_mult_three = (num - 1) // 3
     total_mult_five = (num - 1) // 5
     total_mult_fifteen = (num - 1) // 15
@@ -10,7 +10,8 @@ def challenge1(num):
     return int(sum_pa_three + sum_pa_five - sum_pa_fifteen)
 
 
-print(challenge1(10))
+if __name__ == '__main__':
+    print(sum_multiples(10))
 
 # Créditos ao super instrutor da Trybe, Felps,
 # que me ajudaram a implementar esse algorítmo.

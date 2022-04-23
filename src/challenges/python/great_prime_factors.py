@@ -16,7 +16,7 @@ def is_prime(n):
     return True
 
 
-def prime_factors(number):
+def great_prime_factors(number):
     curr_dividend = number
     curr_divider = 2
     prime_factors = []
@@ -34,8 +34,7 @@ def prime_factors(number):
 
 
 if __name__ == '__main__':
-    print(prime_factors(13195))
-    print(prime_factors(600851475143))
+    print(great_prime_factors(600851475143))
 
 # Créditos aos super instrutores da Trybe, Felps e Carlos Júnior,
 # que me ajudaram a implementar esse algorítmo.
