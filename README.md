@@ -1,6 +1,6 @@
 
 
-<h1 align="center">Desafio Técnico -  Zapt Tech👋</h1>
+<h1 align="center">Algoritmos 👋</h1>
 
 <p>
   <img  alt="Version"  src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000"  />
@@ -15,9 +15,8 @@
 </p>
 
 
-> Neste repositório contém as soluções para o desafio técnico da <b>Zapt Tech.</b>
-> O desafio consiste na resolução de três problemas de lógica de programação.
-> A linguagem escolhida foi Node.js.
+> O objetivo desse repositório é manter e atualizar resoluções para desafios sobre lógica de programação.
+> As linguagens utilizadas são Python e NodeJS.
   
 ## Sumário
 
@@ -39,13 +38,13 @@
 Clone o repositório
   
 ```
-git clone https://github.com/samuel-constantino/desafio-tecnico-zapt-tech.git
+git clone https://github.com/samuel-constantino/algorithms.git
 ```
 
 Entre na pasta do repositório:
 
 ```
-cd desafio-tecnico-zapt-tech
+cd algorithms
 ```
 
 Instale as dependências:
@@ -95,9 +94,13 @@ Desenvolva uma função que encontra o maior fator primo do número 600851475143
 
 ## Tecnologias
 
-- Node.js
 - ESLint
 - Jest
+
+## Linguagens
+
+- Python
+- Node.js
 
 ### Próximos Passos
 
@@ -119,7 +122,7 @@ Deixe uma ⭐️ se este projeto te ajudou!
 
 ## 📝 Licença
 
-Copyright © 2022 [Samuel Constantino <samuelicapuidados@gmail.com>](https://github.com/samuel-constantino).<br  />
+Copyright © 2022 [Samuel Constantino <samuelicapuidados@gmail.com>](https://github.com/samuel-constantino).<br />
 
 Este projeto é licenciado pela [ISC](https://github.com/samuel-constantino/task-manager-back-end/blob/master/LICENSE) .
 
