@@ -6,7 +6,7 @@ Desenvolva uma função que encontra a soma de todos os múltiplos de 3 ou 5 aba
 
 */
 
-const challenge1 = (number) => {
+const sumMultiples = (number) => {
   const qtdMultiplesThree = Math.floor((number - 1) / 3); // quantidade de multiplos de 3 entre 1 e (n - 1)
   const qtdMultiplesFive = Math.floor((number - 1) / 5); // quantidade de multiplos de 5 entre 1 e (n - 1)
   const qtdMultiplesFifTeen = Math.floor((number - 1) / 15); // quantidade de multiplos de 15 entre 1 e (n - 1)
@@ -21,4 +21,4 @@ const challenge1 = (number) => {
 
 // referência: https://brasilescola.uol.com.br/matematica/soma-dos-termos-uma-progressao-aritmetica.htm#
 
-module.exports = { challenge1 };
+module.exports = { sumMultiples };

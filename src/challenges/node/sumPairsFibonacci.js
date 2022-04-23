@@ -9,7 +9,7 @@ Começando com 1 e 2, os 10 primeiros termos serão:
 Desenvolva uma função que encontra a soma de todos os termos pares abaixo de quatro milhões.
 */
 
-const challenge2 = (number) => {
+const sumPairsFibonacci = (number) => {
   let prev = 1;
   let current = 2;
   let next = null;
@@ -26,4 +26,4 @@ const challenge2 = (number) => {
   return sum;
 };
   
-module.exports = { challenge2 };
+module.exports = { sumPairsFibonacci };
