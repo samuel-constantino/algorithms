@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest src/tests/*.test.js"
+    "test": "jest src/tests/node/*.test.js"
   },
   "keywords": [],
   "author": "",
