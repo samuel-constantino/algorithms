@@ -44,3 +44,6 @@ const greatPrimeFactor = (number) => {
 };
   
 module.exports = { greatPrimeFactor };
+
+// Créditos ao super instrutor da Trybe, Rafael Medeiros Gomes,
+// que ajudou a otimizar e torna o código mais limpo.
