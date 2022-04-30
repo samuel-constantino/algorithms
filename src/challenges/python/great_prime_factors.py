@@ -1,5 +1,5 @@
 def is_prime(n):
-    if n % 2 == 0 or n <= 1:
+    if n % 2 == 0:
         return n == 2
 
     limit = int(n**(1/2))
