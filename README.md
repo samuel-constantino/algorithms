@@ -15,7 +15,7 @@
 </p>
 
 
-> O objetivo desse repositório é manter e atualizar resoluções para desafios sobre lógica de programação.
+> O objetivo desse repositório é manter e atualizar resoluções para desafios sobre lógica de programação, sempre levando em consideração a complexidade do algoritmo e o código limpo.
 > As linguagens utilizadas são Python e NodeJS.
   
 ## Sumário
