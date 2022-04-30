@@ -6,16 +6,11 @@ Desenvolva uma função que encontra o maior fator primo do número 600851475143
 
 */
 
-const validateNumber = (n) => {
-  if (n === 2) return true;
-  if (n % 2 === 0 || n <= 1) return false;
-  return -1;
-};
-
 const isPrime = (n) => {
-  const validatedNumber = validateNumber(n);
-  if (validatedNumber !== -1) return validatedNumber;
+  // Se 'n' é par, retorne se 'n' é igual a '2'.
+  if (n % 2 === 0) return n === 2;
 
+  // Precisamos verificar se 'n' é primo apenas até o limite da raiz quadrada de 'n'.
   const limit = n ** 1 / 2 || 0;
   let count = 3;
 

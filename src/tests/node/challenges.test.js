@@ -9,7 +9,7 @@ describe('Challenge functions', function () {
     expect(sumPairsFibonacci(10)).toBe(10);
   });
 
-  test('prime factors of 13195', function () {
+  test('great prime factor of 13195', function () {
     expect(greatPrimeFactor(13195)).toEqual(29);
   });
 });

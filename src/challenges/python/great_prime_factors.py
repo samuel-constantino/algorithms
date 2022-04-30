@@ -1,8 +1,6 @@
 def is_prime(n):
-    if n == 2:
-        return True
     if n % 2 == 0 or n <= 1:
-        return False
+        return n == 2
 
     limit = int(n**(1/2))
     count = 3
@@ -34,6 +32,7 @@ def great_prime_factors(number):
 
 
 if __name__ == '__main__':
+    print(great_prime_factors(13195))
     print(great_prime_factors(600851475143))
 
 # Créditos aos super instrutores da Trybe, Felps e Carlos Júnior,
